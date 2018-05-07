@@ -112,7 +112,7 @@ func getenv(key, defaultValue string) string {
 func root() string {
 	return settings["root"]
 }
-func watchPath string{
+func watchPath() string{
 	return settings["watch_path"]
 }
 func tmpPath() string {
