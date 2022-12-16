@@ -15,8 +15,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/pilu/Yprolic/runner"
 	"os"
+
+	"github.com/Yprolic/fresh/runner"
 )
 
 func main() {

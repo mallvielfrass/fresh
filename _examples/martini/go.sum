@@ -1,0 +1,6 @@
+github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0 h1:sDMmm+q/3+BukdIpxwO365v/Rbspp2Nt5XntgQRXq8Q=
+github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0/go.mod h1:4Zcjuz89kmFXt9morQgcfYZAYZ5n8WHjt81YYWIwtTM=
+github.com/codegangsta/martini v0.0.0-20170121215854-22fa46961aab h1:eFEFkK1s2OXNiIOvjNT5lk/AGXQodN2l8VgbkCK9r4c=
+github.com/codegangsta/martini v0.0.0-20170121215854-22fa46961aab/go.mod h1:0SkifPRh0YknjZR6LxtP+eMvgPwUI6DG8hE9U/3dW9E=
+github.com/pilu/fresh v0.0.0-20190826141211-0fa698148017 h1:XXDLZIIt9NqdeIEva0DM+z1npM0Tsx6h5TYqwNvXfP0=
+github.com/pilu/fresh v0.0.0-20190826141211-0fa698148017/go.mod h1:2LLTtftTZSdAPR/iVyennXZDLZOYzyDn+T0qEKJ8eSw=
