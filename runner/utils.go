@@ -71,11 +71,13 @@ func shouldRebuild(eventName string) bool {
 func createBuildErrorsLog(message string) bool {
 	file, err := os.Create(buildErrorsFilePath())
 	if err != nil {
+		mainLog("ERR: %s\n", err.Error())
 		return false
 	}
 
 	_, err = file.WriteString(message)
 	if err != nil {
+		mainLog("ERR: %s\n", err.Error())
 		return false
 	}
 
