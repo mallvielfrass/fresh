@@ -1,8 +1,8 @@
-module github.com/Yprolic/fresh
+module github.com/mallvielfrass/fresh
 
 go 1.19
 
-replace github.com/pilu/Yprolic/runner => ./runner
+replace github.com/mallvielfrass/fresh/runner => ./runner
 
 require (
 	github.com/howeyc/fsnotify v0.9.0

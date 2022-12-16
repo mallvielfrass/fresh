@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Yprolic/fresh/runner"
+	"github.com/mallvielfrass/fresh/runner"
 )
 
 func main() {
