@@ -47,9 +47,9 @@ func watch() {
 			if len(path) > 1 && strings.HasPrefix(filepath.Base(path), ".") {
 				return filepath.SkipDir
 			}
-
+			//		fmt.Printf("Watching check: %s\n", path)
 			if isIgnoredFolder(path) {
-				watcherLog("Ignoring %s", path)
+				//	watcherLog("Ignoring %s", path)
 				return filepath.SkipDir
 			}
 

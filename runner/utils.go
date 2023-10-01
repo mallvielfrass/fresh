@@ -28,9 +28,18 @@ func isIgnoredFolder(path string) bool {
 	if len(paths) <= 0 {
 		return false
 	}
-
+	absolutePath, _ := filepath.Abs(path)
+	//fmt.Println("absolutePath:", absolutePath)
 	for _, e := range strings.Split(settings["ignored"], ",") {
-		if strings.TrimSpace(e) == paths[0] {
+
+		if strings.TrimSpace(e) == "" {
+			continue
+		}
+		//	fmt.Println("e:", e)
+		absoluteE, _ := filepath.Abs(strings.TrimSpace(e))
+		//	fmt.Println("absoluteE:", absoluteE)
+		if strings.HasPrefix(absolutePath, absoluteE) {
+			//		runnerLog("Ignoring[%s] [%s] HasPrefix [%s]", path, absolutePath, absoluteE)
 			return true
 		}
 	}

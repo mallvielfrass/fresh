@@ -94,6 +94,7 @@ func loadRunnerConfigSettings() {
 	for key, value := range sections[mainSettingsSection] {
 		settings[key] = value
 	}
+	//fmt.Printf("Settings: %v\n", settings)
 }
 
 func initSettings() {
@@ -112,7 +113,7 @@ func getenv(key, defaultValue string) string {
 func root() string {
 	return settings["root"]
 }
-func watchPath() string{
+func watchPath() string {
 	return settings["watch_path"]
 }
 func tmpPath() string {
